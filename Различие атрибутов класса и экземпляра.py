@@ -4,15 +4,7 @@ class Buiding:
     def __init__(self):
         Buiding.total_building += 1
 
-    def buildings_count(self):
-        for self.total_building in range(1, 41):
-            print(f'Здание номер {self.total_building}')
 
-
-building = Buiding()
-building.buildings_count()
-
-
-
-
-
+for _ in range(1, 41):
+    building = Buiding()
+    print(f'Здание номер {building.total_building}')
